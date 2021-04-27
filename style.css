@@ -1,0 +1,35 @@
+h1{
+    color:rgb(23, 27, 27);
+
+  }
+   /*div styles are given by using . before the div name
+   flex helps in organising elements under a div by keeping them horizontol or vertical
+   space-between is used to give as much as posssible space between the elements   */
+  .topsection{
+      background-color: aqua;
+      display:flex;
+      justify-content: space-between;
+  }
+  /*flex-wrap:wrap is used to arrange elements according to screen 
+  space-evenly gives even space between elements of a div*/
+  .games{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+  }
+  /*flex-end is used to arrange the elements in the end of div
+  */
+  .socialmedia{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .sitedescription{
+    display: flex;
+    justify-content: first baseline;
+   flex-direction: column;
+  }
+  /*multiple tags can have same style as follows */
+  p,h3{
+    text-align:center;
+  }
+ 
